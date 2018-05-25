@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<images>
+		<backgrounds>
+			<background id="background_black" width="256px" height="256px">
+				resources/images/backgrounds/black.png
+			</background>
+			<background id="background_blue" width="256px" height="256px">
+				resources/images/backgrounds/blue.png
+			</background>
+			<background id="background_purple" width="256px" height="256px">
+				resources/images/backgrounds/purple.png
+			</background>
+			<background id="background_darkPurple" width="256px" height="256px">
+				resources/images/backgrounds/darkPurple.png
+			</background>
+			<background id="background_black_stars" width="600px" height="451px">
+				resources/images/backgrounds/main_bg.png
+			</background>
+		</backgrounds>
+		<enemies>
+			<enemy id="enemy_black_1" width="93px" height="84px" HP="100" damage="5">
+				resources/images/enemies/enemy_black_1.png
+			</enemy>
+			<enemy id="enemy_blue_1" width="93px" height="84px" HP="100" damage="5">
+				resources/images/enemies/enemy_blue_1.png
+			</enemy>
+			<enemy id="enemy_green_1" width="93px" height="84px" HP="100" damage="5">
+				resources/images/enemies/enemy_green_1.png
+			</enemy>
+			<enemy id="enemy_orange_1" width="93px" height="84px" HP="100" damage="5">
+				resources/images/enemies/enemy_orange_1.png
+			</enemy>
+			<enemy id="enemy_black_2" width="104px" height="84px" HP="140" damage="8">
+				resources/images/enemies/enemy_black_2.png
+			</enemy>
+			<enemy id="enemy_blue_2" width="104px" height="84px" HP="140" damage="8">
+				resources/images/enemies/enemy_blue_2.png
+			</enemy>
+			<enemy id="enemy_green_2" width="104px" height="84px" HP="140" damage="8">
+				resources/images/enemies/enemy_green_2.png
+			</enemy>
+			<enemy id="enemy_orange_2" width="104px" height="84px" HP="140" damage="8">
+				resources/images/enemies/enemy_orange_2.png
+			</enemy>
+			<enemy id="enemy_black_3" width="103px" height="84px" HP="170" damage="10">
+				resources/images/enemies/enemy_black_3.png
+			</enemy>
+			<enemy id="enemy_blue_3" width="103px" height="84px" HP="170" damage="10">
+				resources/images/enemies/enemy_blue_3.png
+			</enemy>
+			<enemy id="enemy_green_3" width="103px" height="84px" HP="170" damage="10">
+				resources/images/enemies/enemy_green_3.png
+			</enemy>
+			<enemy id="enemy_orange_3" width="103px" height="84px" HP="170" damage="10">
+				resources/images/enemies/enemy_orange_3.png
+			</enemy>
+			<enemy id="enemy_black_4" width="82px" height="84px" HP="200" damage="14">
+				resources/images/enemies/enemy_black_4.png
+			</enemy>
+			<enemy id="enemy_blue_4" width="82px" height="84px" HP="200" damage="14">
+				resources/images/enemies/enemy_blue_4.png
+			</enemy>
+			<enemy id="enemy_green_4" width="82px" height="84px" HP="200" damage="14">
+				resources/images/enemies/enemy_green_4.png
+			</enemy>
+			<enemy id="enemy_orange_4" width="82px" height="84px" HP="200" damage="14">
+				resources/images/enemies/enemy_orange_4.png
+			</enemy>
+			<enemy id="enemy_black_5" width="97px" height="84px" HP="250" damage="20">
+				resources/images/enemies/enemy_black_5.png
+			</enemy>
+			<enemy id="enemy_blue_5" width="97px" height="84px" HP="250" damage="20">
+				resources/images/enemies/enemy_blue_5.png
+			</enemy>
+			<enemy id="enemy_green_5" width="97px" height="84px" HP="250" damage="20">
+				resources/images/enemies/enemy_green_5.png
+			</enemy>
+			<enemy id="enemy_orange_5" width="97px" height="84px" HP="250" damage="20">
+				resources/images/enemies/enemy_orange_5.png
+			</enemy>
+			<enemy id="enemy_blue_ufo" width="91px" height="91px" HP="150" damage="25">
+				resources/images/enemies/enemy_blue_ufo.png
+			</enemy>
+			<enemy id="enemy_green_ufo" width="91px" height="91px" HP="150" damage="25">
+				resources/images/enemies/enemy_green_ufo.png
+			</enemy>
+			<enemy id="enemy_red_ufo" width="91px" height="91px" HP="150" damage="25">
+				resources/images/enemies/enemy_red_ufo.png
+			</enemy>
+			<enemy id="enemy_yellow_ufo" width="91px" height="91px" HP="150" damage="25">
+				resources/images/enemies/enemy_yellow_ufo.png
+			</enemy>
+		</enemies>
+		<missiles>
+			<missile id="missile_laser_blue_1" width="8px" height="23px" damage="5">
+				resources/images/missiles/lasers/laserblue021.png
+			</missile>
+		</missiles>
+		<portals>
+			<portal id="portal_easy" width="100px" height="100px" HP="100" nrEnemies="5">
+				resources/images/portals/portal.png
+			</portal>
+			<portal id="portal_medium" width="125px" height="125px" HP="200" nrEnemies="7">
+				resources/images/portals/portal.png
+			</portal>
+			<portal id="portal_hard" width="150px" height="150px" HP="300" nrEnemies="10">
+				resources/images/portals/portal.png
+			</portal>
+		</portals>
+		<powerups>
+			<powerup id="shipUpgrade" width="22px" height="21px">
+				resources/images/powerups/pill_red.png
+			</powerup>
+			<powerup id="bonusHP" width="30px" height="30px">
+				resources/images/powerups/shield_bronze.png
+			</powerup>
+			<powerup id="bonusDamage" width="32px" height="32px">
+				resources/images/powerups/things_bronze.png
+			</powerup>
+		</powerups>
+		<ships>
+			<ship id="ship_1" width="61px" height="45px" HP="200" damage="25">
+				resources/images/ships/ship_1.png
+			</ship>
+			<ship id="ship_2" width="66px" height="50px" HP="250" damage="30">
+				resources/images/ships/ship_2.png
+			</ship>
+			<ship id="ship_3" width="67px" height="55px" HP="300" damage="35">
+				resources/images/ships/ship_3.png
+			</ship>
+			<ship id="ship_4" width="81px" height="58px" HP="350" damage="40">
+				resources/images/ships/ship_4.png
+			</ship>
+			<ship id="ship_5" width="76px" height="65px" HP="400" damage="50">
+				resources/images/ships/ship_5.png
+			</ship>
+		</ships>
+	</images>
+	<audios>
+		<audio id="missileShoot">
+			resources/audio/sfx_laser1.ogg
+		</audio>
+		<audio id="powerupPickup">
+			resources/audio/sfx_shieldUp.ogg
+		</audio>
+		<audio id="shipHit">
+			resources/audio/sfx_bump.ogg
+		</audio>
+		<audio id="shipExplode">
+			resources/audio/sfx_explode.ogg
+		</audio>
+		<audio id="lose">
+			resources/audio/sfx_lose.ogg
+		</audio>
+	</audios>
+	<videos>
+		<video id="gameVideo">
+			resources/video/epic_sax_gandalf.mp4
+		</video>
+	</videos>
+</resources>

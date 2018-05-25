@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+	<portals>
+		<independentPortals>
+			<interval> 10 </interval>
+			<nrEnemies> 4 </nrEnemies>
+			<portalId> portal_easy </portalId>
+			<enemyIdNumber> 3 </enemyIdNumber>
+		</independentPortals>
+		<scheduledPortals>
+			<timeBetweenPortalsGroup> 5 </timeBetweenPortalsGroup>
+			<nrPortals> 9 </nrPortals>
+			<nrPortalsGroups> 4 </nrPortalsGroups>
+			<portalsGroup>
+				<nrPortalsInGroup> 2 </nrPortalsInGroup>
+				<portal>
+					<nrEnemies> 5 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 5 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+			</portalsGroup>
+			<portalsGroup>
+				<nrPortalsInGroup> 3 </nrPortalsInGroup>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+			</portalsGroup>
+			<portalsGroup>
+				<nrPortalsInGroup> 4 </nrPortalsInGroup>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 2 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 2 </enemyIdNumber>
+				</portal>
+			</portalsGroup>
+			<portalsGroup>
+				<nrPortalsInGroup> 4 </nrPortalsInGroup>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 1 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 2 </enemyIdNumber>
+				</portal>
+				<portal>
+					<nrEnemies> 4 </nrEnemies>
+					<portalId> portal_easy </portalId>
+					<enemyIdNumber> 2 </enemyIdNumber>
+				</portal>
+			</portalsGroup>
+		</scheduledPortals>
+	</portals>
+	<powerups>
+		<powerup>
+			<type> shipUpgrade </type>
+			<correspondingPortalsGroupNumber> 2 </correspondingPortalsGroupNumber>
+		</powerup>
+		<powerup>
+			<type> bonusDamage </type>
+			<correspondingPortalsGroupNumber> 1 </correspondingPortalsGroupNumber>
+		</powerup>
+	</powerups>
+</resources>

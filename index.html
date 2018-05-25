@@ -1,0 +1,48 @@
+<!DOCTYPE hrml>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Space armageddon </title>
+	<link rel="stylesheet" type="text/css" href="resources/css/general.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src="resources/js/constants.js" type="text/javascript"></script>
+	<script src="resources/js/helpers.js" type="text/javascript"></script>
+	<script src="resources/js/missile.js" type="text/javascript"></script>
+	<script src="resources/js/Player.js" type="text/javascript"></script>
+	<script src="resources/js/Enemy.js" type="text/javascript"></script>
+	<script src="resources/js/powerup.js" type="text/javascript"></script>
+	<script src="resources/js/portal.js" type="text/javascript"></script>
+	<script src="resources/js/Loader.js" type="text/javascript"></script>
+	<script src="resources/js/GameManager.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		window.onload = function()
+		{
+			GM = new GameManager();
+			GM.addLoadingScreen();
+			
+			var updateInterval = setInterval(function() { GM.update(); }, 50);
+		}
+		/*
+				
+
+				var int_create_enemies = setInterval(function() {
+						var enemy = document.createElement("div");
+						enemy.classList.add("enemy");
+						enemy.style.top = 0;
+						enemy.style.left = (Math.floor(Math.random() * 1000) % 1000) + "px";
+						//container.appendChild(enemy);
+				}, 500);
+
+					
+				}, 30);
+			}
+
+			
+
+			
+		*/
+		</script>
+</head>
+<body>
+</body>
+</html>
